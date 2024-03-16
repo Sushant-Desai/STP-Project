@@ -8,26 +8,26 @@ void hotels()
 	int n;
 	system("cls");
 	printf("\n\t\t HOTELS :");
-	printf("\n\n\t1. RAJWADA PALACE\t PRICE : 20,000 PER DAY");
-	printf("\n\n\t2. SUN CITY RESORT \t       PRICE : 19,500 PER DAY");
-	printf("\n\n\t3. JW MARRIOT\t PRICE : 17,000 PER DAY");
-	printf("\n\n\t4. CROWN PLAZA \t PRICE : 20,500 PER DAY");
-	printf("\n\n\t5. CONRAD\t    PRICE : 18,000 PER DAY");
+	printf("\n\n\t1. RAJWADA PALACE\t PRICE : 2000 PER DAY");
+	printf("\n\n\t2. SUN CITY RESORT \t       PRICE : 1950 PER DAY");
+	printf("\n\n\t3. JW MARRIOT\t PRICE : 1700 PER DAY");
+	printf("\n\n\t4. CROWN PLAZA \t PRICE : 2000 PER DAY");
+	printf("\n\n\t5. CONRAD\t    PRICE : 8,000 PER DAY");
 	printf("\n\n\t ENTER CHOICE :  ");
 	scanf("%d", &n);
 	printf("\n\n\t ENTER NO OF DAYS : ");
 	scanf("%d",&p.days);
 	switch (n)
 	{
-case 1: p.cost+=p.days*20000;
+case 1: p.cost+=p.days*2000;
 strcpy(p.hname,"RAJWADA PALACE");break;
-case 2: p.cost+=p.days*19500;
-strcpy(p.hname,"SUN CITY RESORT");break;
-case 3: p.cost+=p.days*17000;
+case 2: p.cost+=p.days*1950;
+strcpy(p.hname,"SUNCITY RESORT");break;
+case 3: p.cost+=p.days*1700;
 strcpy(p.hname,"JW MARRIOT");break;
-case 4: p.cost+=p.days*20500;
+case 4: p.cost+=p.days*2000;
 strcpy(p.hname,"CROWN PLAZA ");break;
-case 5: p.cost+=p.days*18000;
+case 5: p.cost+=p.days*8000;
 strcpy(p.hname,"CONRAD");break;
 	}
 	printf("\n\t ENTER DATE OF CHECKIN : ");
